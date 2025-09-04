@@ -3,5 +3,15 @@
     "file": "experiments/example.js",
     "name": "Name of your experiment",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+  },
+  {
+    "file": "experiments/first.js",
+    "name": "Flow Of Life",
+    "description": "This artwork represents the flow of life — a single line that shifts and changes, symbolizing persistence and continuity through challenges. It uses Perlin noise to create smooth, organic curves instead of jagged randomness, and a time variable animates the line slowly across the canvas. The system works by calculating vertical offsets for each horizontal point and drawing a continuous shape, producing a meditative, evolving visual that reflects resilience and subtle change."
+  },
+  {
+    "file": "experiments/second.js",
+    "name": "Name",
+    "description": "..."
   }
 ]
