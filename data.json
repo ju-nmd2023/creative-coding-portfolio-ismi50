@@ -13,5 +13,10 @@
     "file": "experiments/third.js",
     "name": "Starlit Life",
     "description": "Flowing waves of noise dance beneath a twinkling starfield, creating a living, breathing night sky that feels full of motion and quiet energy."
+  },
+  {
+    "file": "experiments/first2.js",
+    "name": "Symphony of Attraction",
+    "description": "Captures the dance between motion and force. Pulsing ellipses and shifting hues reflect the balance of symmetry and randomness, evoking the rhythm and unpredictability of nature. The sketch becomes a visual meditation on attraction, movement, and the fleeting beauty of dynamic interactions."
   }
 ]
