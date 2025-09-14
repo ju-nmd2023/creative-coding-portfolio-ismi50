@@ -18,5 +18,10 @@
     "file": "experiments/first2.js",
     "name": "Symphony of Attraction",
     "description": "Captures the dance between motion and force. Pulsing ellipses and shifting hues reflect the balance of symmetry and randomness, evoking the rhythm and unpredictability of nature. The sketch becomes a visual meditation on attraction, movement, and the fleeting beauty of dynamic interactions."
+  },
+  {
+    "file": "experiments/fyrkant.js",
+    "name": "Rectangle",
+    "description": "..."
   }
 ]
