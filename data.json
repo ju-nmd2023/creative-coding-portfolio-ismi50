@@ -1,27 +1,32 @@
 [
   {
-    "file": "experiments/first.js",
+    "file": "experiments/flowoflife.js",
     "name": "Flow Of Life",
     "description": "This artwork represents the flow of life — a single line that shifts and changes, symbolizing persistence and continuity through challenges. It uses Perlin noise to create smooth, organic curves instead of jagged randomness, and a time variable animates the line slowly across the canvas. The system works by calculating vertical offsets for each horizontal point and drawing a continuous shape, producing a meditative, evolving visual that reflects resilience and subtle change."
   },
   {
-    "file": "experiments/second.js",
+    "file": "experiments/riversofbeing.js",
     "name": "Rivers of Being",
     "description": "This sketch is a continuation of Flow of Life, evolving the original concept into a dynamic, multi-layered visualization. Multiple flowing lines ripple across the canvas, their shapes guided by layered Perlin noise, creating an organic, ever-changing rhythm. Colors shift over time, and subtle trails give the sense of currents and interactions, reflecting the complexity and beauty of life’s continuous motion."
   },
   {
-    "file": "experiments/third.js",
+    "file": "experiments/starlitlife.js",
     "name": "Starlit Life",
     "description": "Flowing waves of noise dance beneath a twinkling starfield, creating a living, breathing night sky that feels full of motion and quiet energy."
   },
   {
-    "file": "experiments/fyrkant.js",
+    "file": "experiments/pulseoflife.js",
     "name": "Pulse of Life",
     "description": "This code creates a centered grid of squares on the canvas where each square has a subtle, random jitter. Every fourth square is rotated 180°, producing a dynamic, slightly chaotic grid pattern that feels alive and slightly imperfect. The positions of the squares gently shift frame by frame, giving the grid a wiggling, organic motion."
   },
   {
-    "file": "experiments/first2.js",
+    "file": "experiments/symphonyofattraction.js",
     "name": "Symphony of Attraction",
     "description": "Captures the dance between motion and force. Pulsing ellipses and shifting hues reflect the balance of symmetry and randomness, evoking the rhythm and unpredictability of nature. The sketch becomes a visual meditation on attraction, movement, and the fleeting beauty of dynamic interactions."
+  },
+  {
+    "file": "experiments/love.js",
+    "name": "Symphony of Love",
+    "description": "...."
   }
 ]
