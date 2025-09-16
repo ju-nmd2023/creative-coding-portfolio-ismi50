@@ -1,37 +1,41 @@
-const size = 20; //ändra
-const gap = 19;
-const amount = 15;
+const size = 50;
+const gap = 13;
+const amount = 26;
+let offsets = [];
+let HueShift = 0;
 
 function setup() {
   createCanvas(innerWidth, innerHeight);
+  colorMode(HSB, 360, 100, 100);
+  for (let i = 0; i < amount * amount; i++) {
+    offsets.push({ x: random(-2, 2), y: random(-2, 2) });
+  }
 }
 
 function draw() {
-  background(255, 200, 200);
-  fill(0, 0, 0);
-  stroke(0, 0, 0);
-  strokeWeight(3);
+  background(HueShift % 360, 30, 100);
+  HueShift += 0.5;
+
+  fill(255);
 
   let y = (height - size * amount - gap * (amount - 1)) / 2;
   let counter = 0;
   for (let i = 0; i < amount; i++) {
     let x = (width - size * amount - gap * (amount - 1)) / 2;
     for (let k = 0; k < amount; k++) {
-      push();
-      translate(x, y);
-      if (counter % 3 === 0) {
-        rotate(Math.PI / 1);
-        fill(0, 0, 0);
-      }
-      square(0, 0, size);
-      pop();
+      let offset = offsets[counter];
+
+      offset.x += random(-0.1, 0.1);
+      offset.y += random(-0.8, 0.8);
 
       push();
-      translate(x, y);
+      translate(x + offset.x, y + offset.y);
       if (counter % 4 === 0) {
-        rotate(Math.random() * TWO_PI);
-        fill(0, 0, 0);
+        rotate(PI);
       }
+
+      stroke(0);
+      strokeWeight(2 + Math.random() * 2);
       square(0, 0, size);
       pop();
 
@@ -40,6 +44,4 @@ function draw() {
     }
     y += size + gap;
   }
-
-  noLoop();
 }

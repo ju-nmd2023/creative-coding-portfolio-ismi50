@@ -15,13 +15,13 @@
     "description": "Flowing waves of noise dance beneath a twinkling starfield, creating a living, breathing night sky that feels full of motion and quiet energy."
   },
   {
+    "file": "experiments/fyrkant.js",
+    "name": "Pulse of Life",
+    "description": "This code creates a centered grid of squares on the canvas where each square has a subtle, random jitter. Every fourth square is rotated 180°, producing a dynamic, slightly chaotic grid pattern that feels alive and slightly imperfect. The positions of the squares gently shift frame by frame, giving the grid a wiggling, organic motion."
+  },
+  {
     "file": "experiments/first2.js",
     "name": "Symphony of Attraction",
     "description": "Captures the dance between motion and force. Pulsing ellipses and shifting hues reflect the balance of symmetry and randomness, evoking the rhythm and unpredictability of nature. The sketch becomes a visual meditation on attraction, movement, and the fleeting beauty of dynamic interactions."
-  },
-  {
-    "file": "experiments/fyrkant.js",
-    "name": "Rectangle",
-    "description": "..."
   }
 ]
