@@ -2,12 +2,12 @@
   {
     "file": "experiments/flowoflife.js",
     "name": "Flow Of Life",
-    "description": "This artwork represents the flow of life — a single line that shifts and changes, symbolizing persistence and continuity through challenges. It uses Perlin noise to create smooth, organic curves instead of jagged randomness, and a time variable animates the line slowly across the canvas. The system works by calculating vertical offsets for each horizontal point and drawing a continuous shape, producing a meditative, evolving visual that reflects resilience and subtle change."
+    "description": "This artwork depicts life’s flow — a single evolving line symbolizing persistence through change. Using Perlin noise for smooth, organic curves and a time variable for motion, it generates a meditative visual of resilience and subtle transformation."
   },
   {
     "file": "experiments/riversofbeing.js",
     "name": "Rivers of Being",
-    "description": "This sketch is a continuation of Flow of Life, evolving the original concept into a dynamic, multi-layered visualization. Multiple flowing lines ripple across the canvas, their shapes guided by layered Perlin noise, creating an organic, ever-changing rhythm. Colors shift over time, and subtle trails give the sense of currents and interactions, reflecting the complexity and beauty of life’s continuous motion."
+    "description": "This sketch expands on Flow of Life with layered lines shaped by Perlin noise, shifting colors, and subtle trails — creating an organic, ever-changing rhythm that reflects life’s continuous motion."
   },
   {
     "file": "experiments/starlitlife.js",
@@ -17,7 +17,7 @@
   {
     "file": "experiments/pulseoflife.js",
     "name": "Pulse of Life",
-    "description": "This code creates a centered grid of squares on the canvas where each square has a subtle, random jitter. Every fourth square is rotated 180°, producing a dynamic, slightly chaotic grid pattern that feels alive and slightly imperfect. The positions of the squares gently shift frame by frame, giving the grid a wiggling, organic motion."
+    "description": "This code draws a centered grid of squares with subtle random jitter. Every fourth square rotates 180°, adding dynamic irregularity. The grid shifts frame by frame, creating a lively, organic motion."
   },
   {
     "file": "experiments/symphonyofattraction.js",

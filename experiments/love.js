@@ -27,7 +27,7 @@ function draw() {
 class LoveParticle {
   constructor(x, y) {
     this.position = createVector(x, y);
-    this.velocity = p5.Vector.random2D().mult(random(1, 3));
+    this.velocity = p5.Vector.random2D().mult(random(1, 9));
     this.acceleration = createVector(0, 0);
     this.lastPosition = this.position.copy();
     this.colorHue = random(0, 360);
@@ -45,14 +45,14 @@ class LoveParticle {
   update() {
     this.lastPosition = this.position.copy();
     this.velocity.add(this.acceleration);
-    this.velocity.limit(25);
+    this.velocity.limit(40);
     this.position.add(this.velocity);
     this.acceleration.mult(0);
   }
 
   draw() {
     strokeWeight(2.8);
-    stroke(this.colorHue, 80, 100, 70);
+    stroke(this.colorHue, 80, 200, 70);
     line(
       this.lastPosition.x,
       this.lastPosition.y,

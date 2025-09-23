@@ -6,17 +6,17 @@ let HueShift = 0;
 
 function setup() {
   createCanvas(innerWidth, innerHeight);
-  colorMode(HSB, 360, 100, 100);
+
   for (let i = 0; i < amount * amount; i++) {
     offsets.push({ x: random(-2, 2), y: random(-2, 2) });
   }
 }
 
 function draw() {
-  background(HueShift % 360, 30, 100);
-  HueShift += 0.5;
+  background(HueShift % 360, 100, 100);
+  HueShift += 0.9;
 
-  fill(255);
+  fill(255, 204, 204);
 
   let y = (height - size * amount - gap * (amount - 1)) / 2;
   let counter = 0;
@@ -30,7 +30,7 @@ function draw() {
 
       push();
       translate(x + offset.x, y + offset.y);
-      if (counter % 4 === 0) {
+      if (counter % 2.5 === 0) {
         rotate(PI);
       }
 
