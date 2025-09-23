@@ -26,7 +26,12 @@
   },
   {
     "file": "experiments/love.js",
-    "name": "Symphony of Love",
-    "description": "...."
+    "name": "Love in Motion",
+    "description": "A cloud of colorful particles dances across the screen, each drawn to the mouse like hearts pulled by invisible affection. Trails of glowing light trace their paths, creating a living web of vibrant love. The artwork turns interaction into a playful, flowing embrace of color and movement."
+  },
+  {
+    "file": "experiments/new.js",
+    "name": "Name",
+    "description": "Description..."
   }
 ]
