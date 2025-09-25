@@ -20,6 +20,11 @@
     "description": "This code draws a centered grid of squares with subtle random jitter. Every fourth square rotates 180°, adding dynamic irregularity. The grid shifts frame by frame, creating a lively, organic motion."
   },
   {
+    "file": "experiments/pulseoflife2.js",
+    "name": "Chaotic Cascade",
+    "description": "Hundreds of squares tumble downward with random rotations, colors, and sizes, forming a shifting, abstract grid. Bright accents pop against a dark background, while squares seamlessly loop from top to bottom. The result is a hypnotic blend of structure and randomness in constant motion."
+  },
+  {
     "file": "experiments/symphonyofattraction.js",
     "name": "Symphony of Attraction",
     "description": "Captures the dance between motion and force. Pulsing ellipses and shifting hues reflect the balance of symmetry and randomness, evoking the rhythm and unpredictability of nature. The sketch becomes a visual meditation on attraction, movement, and the fleeting beauty of dynamic interactions."
