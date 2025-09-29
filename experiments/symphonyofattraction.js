@@ -23,9 +23,9 @@ window.addEventListener("load", () => {
 });
 
 window.addEventListener("click", async () => {
-  await Tone.start();
+  Tone.start();
   player1.start();
-  monoSynth.triggerAttackRelease("C7", "2n");
+  monoSynth.triggerAttackRelease("C7", "16n");
   oscillator.start();
 });
 // end for tone.js
