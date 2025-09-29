@@ -25,6 +25,11 @@
     "description": "Hundreds of squares tumble downward with random rotations, colors, and sizes, forming a shifting, abstract grid. Bright accents pop against a dark background, while squares seamlessly loop from top to bottom. The result is a hypnotic blend of structure and randomness in constant motion."
   },
   {
+    "file": "experiments/pulseoflife3.js",
+    "name": "Flowing Pixel Matrix",
+    "description": "A dynamic grid of squares animated with Perlin noise, where each cell rotates, jitters, and changes color over time. The stroke thickness varies organically, creating a lively, flowing visual texture. The background subtly shifts in hue, enhancing the sense of movement and depth."
+  },
+  {
     "file": "experiments/symphonyofattraction.js",
     "name": "Symphony of Attraction",
     "description": "Captures the dance between motion and force. Pulsing ellipses and shifting hues reflect the balance of symmetry and randomness, evoking the rhythm and unpredictability of nature. The sketch becomes a visual meditation on attraction, movement, and the fleeting beauty of dynamic interactions."
@@ -33,10 +38,5 @@
     "file": "experiments/love.js",
     "name": "Love in Motion",
     "description": "A cloud of colorful particles dances across the screen, each drawn to the mouse like hearts pulled by invisible affection. Trails of glowing light trace their paths, creating a living web of vibrant love. The artwork turns interaction into a playful, flowing embrace of color and movement."
-  },
-  {
-    "file": "experiments/new.js",
-    "name": "Name",
-    "description": "Description..."
   }
 ]
